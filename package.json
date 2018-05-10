@@ -11,7 +11,7 @@
     "release:patch": "scripts/release.sh patch",
     "release:minor": "scripts/release.sh minor",
     "w:front": "webpack-dev-server --mode=development --open --hot --inline",
-    "w:back:itns": "CURRENCY=intensecoin nodemon --watch src --ignore src/front --exec babel-node src/back/index.js",
+    "w:back:itns": "CURRENCY=intensecoin nodemon --watch src --ignore src/front --exec babel-node src/back/index.js"
   },
   "repository": {
     "type": "git",
